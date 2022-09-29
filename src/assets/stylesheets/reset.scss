@@ -3,26 +3,21 @@
   margin: 0;
   padding: 0;
 }
-
-// div 有很长得样式，所以我们可以把它放在一个单独的
-
-*::before,
-*::after {
+*::before, *::after{
   box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+  font-weight: normal;
+}
+ul, ol {
+  list-style: none;
+}
 
-a {
+a{
   color: inherit;
   text-decoration: none;
 }
 
-button,
-input {
+button, input {
   font: inherit;
 }
-
-h1,h2,h3,h4,h5,h6 {
-  font-weight: normal;
-}
-
-
